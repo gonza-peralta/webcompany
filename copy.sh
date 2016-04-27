@@ -1,1 +1,1 @@
-cp -r * /var/www/html/
+rsync -rv * /var/www/html/ --exclude='mockups .git'
