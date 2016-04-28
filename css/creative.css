@@ -33,7 +33,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    color: #163547;
 }
 
 h1,
@@ -94,7 +94,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: #345569;
 }
 
 .navbar-default .nav > li>a,
@@ -158,7 +158,7 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #eb3812;
+        color: #345569;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -189,6 +189,7 @@ header {
 header .header-content {
     position: relative;
     width: 100%;
+    height: 50%;
     padding: 100px 15px;
     text-align: center;
 }
