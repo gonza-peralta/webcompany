@@ -72,6 +72,10 @@ aside {
     padding: 50px 0;
 }
 
+.top-div-margin { 
+    margin-top: 100px;
+}
+
 .no-padding {
     padding: 0;
 }
