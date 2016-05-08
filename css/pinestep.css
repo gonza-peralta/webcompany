@@ -5,7 +5,15 @@
 .bs-wizard {border-bottom: solid 1px #e0e0e0; padding: 0 0 10px 0;}
 .bs-wizard > .bs-wizard-step {padding: 0; position: relative;}
 .bs-wizard > .bs-wizard-step + .bs-wizard-step {}
-.bs-wizard > .bs-wizard-step .bs-wizard-stepnum {color: #ffffff; font-size: 1.5em; line-height: 1.1; margin-bottom: 5px;}
+.bs-wizard > .bs-wizard-step .bs-wizard-stepnum 
+	{
+		color: #fff; 
+		font-size: 1.5em; 
+		line-height: 1.1; 
+		margin-bottom: 5px;
+		font-family: "open sans",arial,sans-serif;
+		text-shadow: 0 2px 3px rgba(0,0,0,.4);
+	}
 .bs-wizard > .bs-wizard-step .bs-wizard-info {color: #ffffff; font-size: 1.125em;}
 .bs-wizard > .bs-wizard-step > .bs-wizard-dot {
 	position: absolute; 
