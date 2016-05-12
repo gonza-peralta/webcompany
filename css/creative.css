@@ -43,6 +43,7 @@ h4,
 h5,
 h6 {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-size: 25px;
 }
 
 p {
@@ -186,7 +187,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.png);
+    background-image: url(../img/header.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -205,8 +206,8 @@ header .header-content {
 header .header-content .header-content-inner h1 {
     margin-top: 0;
     margin-bottom: 0;
-    text-transform: uppercase;
-    font-weight: 700;
+    /*text-transform: uppercase;*/
+    font-weight: 600;
 }
 
 header .header-content .header-content-inner hr {
@@ -505,20 +506,45 @@ body {
 }
 
 .boton {
-    margin-top: 30px;
-    border: 1px solid #34b7c0;
-    display: block;
-    font-size: 1.9em;
+   /*margin-top: 30px;
+    border: 1px solid #34b7c0;*/
+    display: inline-block;
+    font-size: 27px;
     width: 100%;
     padding: 4px 0;
     color: #34b7c0;
     background-color: white;
     text-align: center;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.phone {
+    display: inline-block;
+    font-size: 20px;
+    width: 100%;
+    padding: 4px 0;
+    color: #34b7c0;
+    background-color: white;
+    text-align: center;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.dir {
+    margin-top: 15px;
+    display: inline-block;
+    font-size: 15px;
+    width: 100%;
+    padding: 4px 0;
+    color: #34b7c0;
+    background-color: white;
+    text-align: center;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 .p_body {
     color: #222;
     font-size: 18px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 .orange_line {
@@ -527,4 +553,18 @@ body {
 
 .shadow_text {
     text-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+
+.border_button {
+    margin-top: 30px;
+    border: 1px solid #34b7c0;
+    display: inline-block;
+}
+
+.img_padding {
+    padding: 5px 5px;
+}
+
+.white {
+    color: white;
 }

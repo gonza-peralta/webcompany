@@ -1,4 +1,4 @@
-.bs-wizard {margin-top: 70px;}
+.bs-wizard {margin-top: 130px;}
 
 /*Form Wizard*/
 
@@ -9,7 +9,7 @@
 	{
 		color: #fff; 
 		font-size: 1.5em; 
-		line-height: 1.1; 
+		line-height: 1.0; 
 		margin-bottom: 5px;
 		font-family: "open sans",arial,sans-serif;
 		text-shadow: 0 2px 3px rgba(0,0,0,.4);
