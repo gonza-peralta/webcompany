@@ -130,6 +130,10 @@ aside {
     background-color: transparent;
 }
 
+.navbar-default .navbar-header .logo_background {
+    content: url(../img/Logo_web-01.png);
+}
+
 @media(min-width:768px) {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
@@ -155,6 +159,10 @@ aside {
         color: #fff;
     }
 
+    .navbar-default .navbar-header .logo_background {
+        content: url(../img/Logo_web-04.png);
+    }
+
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
         background-color: #fff;
@@ -178,6 +186,10 @@ aside {
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #31698a;
+    }
+
+    .navbar-default.affix .navbar-header .logo_background {
+        content: url(../img/Logo_web-01.png);
     }
 }
 
@@ -561,9 +573,13 @@ body {
     display: inline-block;
 }
 
-.img_padding {
-    padding: 5px 5px;
+.logo_navbar {
+    padding: 0px 10px;
 }
+
+/*.logo_background {
+    content: url(../img/Logo_web-04.png);
+}*/
 
 .white {
     color: white;
