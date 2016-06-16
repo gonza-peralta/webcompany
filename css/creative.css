@@ -163,6 +163,10 @@ aside {
         content: url(../img/Logo_web-04.png);
     }
 
+    .navbar-default .navbar-header .logo_background:after {
+        content: url(../img/Logo_web-04.png);
+    }
+
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
         background-color: #fff;
@@ -189,6 +193,10 @@ aside {
     }
 
     .navbar-default.affix .navbar-header .logo_background {
+        content: url(../img/Logo_web-01.png);
+    }
+
+    .navbar-default.affix .navbar-header .logo_background:after {
         content: url(../img/Logo_web-01.png);
     }
 }
