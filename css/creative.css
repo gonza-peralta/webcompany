@@ -42,8 +42,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    font-size: 25px;
+    /*font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;*/
+    font-family: 'Open Sans','Regular',Arial,sans-serif;
 }
 
 p {
@@ -56,8 +56,34 @@ p {
     background-color: #31698a; /*#f05f40;*/
 }
 
-.bg-primary-light {
-    background-color: #34b7c0;
+.bg-primary-research {
+    /*background-color: #34b7c0;*/
+    background-color: #36b6bf;
+}
+
+.bg-primary-define {
+    background-color: #fabc41;   
+}
+
+.bg-primary-achieve {
+    background-color: #0e71b4;
+    background-image: url('../img/achieve/achieve_iw.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: inherit;
+}
+
+.bg-primary-technologie {
+    background-color: #2eaadd;   
+}
+
+.bg-primary-contctus {
+    background-color: #575759;   
+}
+
+.bg-primary-contcbody {
+    background-color: #707072;   
 }
 
 .bg-dark {
@@ -70,7 +96,7 @@ p {
 }
 
 section {
-    padding: 100px 0;
+    padding: 75px 0;
 }
 
 aside {
@@ -131,7 +157,7 @@ aside {
 }
 
 .navbar-default .navbar-header .logo_background {
-    content: url(../img/Logo_web-01.png);
+    content: url(../img/improveworks_svg_-01.svg);
 }
 
 @media(min-width:768px) {
@@ -160,11 +186,13 @@ aside {
     }
 
     .navbar-default .navbar-header .logo_background {
-        content: url(../img/Logo_web-04.png);
+        content: url(../img/improveworks_svg_-04.svg);
+        padding-left: 50px;
     }
 
     .navbar-default .navbar-header .logo_background:after {
-        content: url(../img/Logo_web-04.png);
+        content: url(../img/improveworks_svg_-04.svg);
+        padding-left: 50px;
     }
 
     .navbar-default.affix {
@@ -194,10 +222,23 @@ aside {
 
     .navbar-default.affix .navbar-header .logo_background {
         content: url(../img/Logo_web-01.png);
+        padding-left: 50px;
     }
 
     .navbar-default.affix .navbar-header .logo_background:after {
         content: url(../img/Logo_web-01.png);
+        padding-left: 50px;
+    }
+
+    .navbar-right {
+        float: right!important;
+        margin-right: -15px;
+        padding-right: 50px;
+    }
+
+    .bg-primary-achieve {
+        background-position: right;
+        height: initial;
     }
 }
 
@@ -226,8 +267,7 @@ header .header-content {
 header .header-content .header-content-inner h1 {
     margin-top: 0;
     margin-bottom: 0;
-    /*text-transform: uppercase;*/
-    font-weight: 600;
+    font-weight: 300;
 }
 
 header .header-content .header-content-inner hr {
@@ -564,7 +604,7 @@ body {
 .p_body {
     color: #222;
     font-size: 18px;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans','Regular',Arial,sans-serif;
 }
 
 .orange_line {
@@ -585,10 +625,15 @@ body {
     padding: 0px 10px;
 }
 
-/*.logo_background {
-    content: url(../img/Logo_web-04.png);
-}*/
-
 .white {
     color: white;
+}
+
+.row {
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+.img-responsive {
+    margin: 0 auto;
 }
