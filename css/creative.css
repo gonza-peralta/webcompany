@@ -70,9 +70,7 @@ p {
     background-image: url('../img/achieve/achieve_iw.svg');
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: 60%;
-    /*background-size: contain;
-    height: inherit;*/
+    background-size: 50%;
 }
 
 .bg-primary-technologie {
@@ -243,8 +241,7 @@ aside {
     }
 
     .bg-primary-achieve {
-        background-position: right;
-        /*height: initial;*/
+        background-position: 80% 100%;
     }
 }
 
@@ -561,7 +558,7 @@ body {
     border: 0;
     border-radius: 300px;
     text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans','light',Arial,sans-serif;
     font-weight: 700;
     border-color: #fff;
     color: #fff;
@@ -571,40 +568,18 @@ body {
     transition: all .35s;
 }
 
-.boton {
-   /*margin-top: 30px;
-    border: 1px solid #34b7c0;*/
+.contact_info {
     display: inline-block;
-    font-size: 27px;
+    font-size: 15px;   
     width: 100%;
     padding: 4px 0;
-    color: #34b7c0;
-    background-color: white;
+    color: #fff;
     text-align: center;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans','light',Arial,sans-serif;
 }
 
-.phone {
-    display: inline-block;
-    font-size: 20px;
-    width: 100%;
-    padding: 4px 0;
-    color: #34b7c0;
-    background-color: white;
-    text-align: center;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-}
-
-.dir {
-    margin-top: 15px;
-    display: inline-block;
-    font-size: 15px;
-    width: 100%;
-    padding: 4px 0;
-    color: #34b7c0;
-    background-color: white;
-    text-align: center;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+.contact_info_light {
+    font-weight: 500;
 }
 
 .p_body {
@@ -642,4 +617,14 @@ body {
 
 .img-responsive {
     margin: 0 auto;
+}
+
+.form-imput {
+    background-color: #707072;
+    border-bottom: 1px solid #fff;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 100%;
+    padding: 6px 12px;
 }
