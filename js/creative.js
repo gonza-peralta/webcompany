@@ -42,6 +42,44 @@
         }
     })
 
+
+    var request;
+
+    $("#form-iw").submit(function(event){
+
+        // Abort any pending request
+        if (request) {
+            request.abort();
+        }
+        // setup some local variables
+        var $form = $(this);
+
+        // Let's select and cache all the fields
+        var $inputs = $form.find("input, select, textarea");
+
+        // Serialize the data in the form
+        var serializedData = $form.serialize();
+
+        // Let's disable the inputs for the duration of the Ajax request.
+        // Note: we disable elements AFTER the form data has been serialized.
+        // Disabled form elements will not be serialized.
+        $inputs.prop("disabled", true);
+
+
+        $.post('/toemail.php', serializedData, function(response) {
+            // Log the response to the console
+            console.log("Response: " + response);
+            if (response == "OK"){
+                alertify.success("The message has been sent");
+            } else {
+                alertify.error("Error sending message. Please try it later");
+            }
+            $inputs.prop("disabled", false);
+        });
+        // Prevent default posting of form
+        event.preventDefault();
+    });
+
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
